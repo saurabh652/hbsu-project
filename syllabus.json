@@ -1,0 +1,368 @@
+{
+  "Postgraduate Diploma in Forensic Science and Related Laws": {
+    "Fundamentals of Forensic Science": {
+      "units": [
+        "Definition, Nature, Need and Scope of Forensic Science",
+        "Historical development of Forensic Science: Global perspective",
+        "Key contributions in the history of Forensic Science",
+        "Principles of Forensic Science",
+        "Forensic Scientist: Education, Training, Ethical considerations, Role and Responsibilities",
+        "Forensic Science in pre independent India",
+        "Forensic Science in Independent India",
+        "Organizational structure and role of Forensic Science Laboratories",
+        "Various branches of Forensic Science",
+        "Emerging Trends in Forensic Science",
+        "Definition and importance of a Crime Scene",
+        "Types of Crime Scene",
+        "Process of Crime Scene Investigation and Management",
+        "Crime Scene Documentation",
+        "Evidence and its types",
+        "Occupational health and safety for Forensic Scientist",
+        "Importance and Principles of Crime Scene Reconstruction",
+        "Methods of Crime Scene Reconstruction",
+        "Steps involved in Crime Scene Reconstruction",
+        "Scene Specific Reconstruction",
+        "Report writing and Expert testimony",
+        "Key contributions in the history of Forensic Science",
+        "Forensic Scientist: Education, Training, Ethical considerations, Roleand Responsibilities",
+        "Evolution and Structure of Forensic Science in India",
+        "Forensic Science in pre independent India",
+        "Forensic Science in Independent India",
+        "Organizational structure and role of Forensic Science Laboratories",
+        "Various branches of Forensic Science",
+        "Emerging Trends in Forensic Science",
+        "Crime Scene Investigation and Evidence Management",
+        "Definition and importance of a Crime Scene",
+        "Types of Crime Scene",
+        "Process of Crime Scene Investigation and Management",
+        "Crime Scene Documentation",
+        "Evidence and its types",
+        "Occupational health and safety for Forensic Scientist",
+        "Principles and Methods of Crime Scene Reconstruction",
+        "Importance and Principles of Crime Scene Reconstruction",
+        "Methods of Crime Scene Reconstruction",
+        "Steps involved in Crime Scene Reconstruction",
+        "Scene Specific Reconstruction",
+        "Report writing and Expert testimony"
+      ]
+    },
+
+    "Introduction to Forensic Biology": {
+      "units": [
+        "Overview of Forensic Biology",
+        "Introduction to Forensic Biology",
+        "Various services of Forensic Biology",
+        "Nature and types of biological evidence",
+        "Collection and preservation of biological evidence",
+        "Significance of biological evidence",
+        "Forensic Serology and other Body Fluids in Forensic Science",
+        "Introduction to blood and major body fluids",
+        "Blood spatter analysis and its significance",
+        "Presumptive tests of blood, semen, saliva, urine, sweat and other body fluids",
+        "Confirmatory tests of blood, semen, saliva, urine, and other body fluids",
+        "Forensic Examination of Hair, Fiber, Forensic Palynology and Entomology",
+        "Forensic Hair and Fiber examination: Structure of hair, Human versus non-human hair, Identification and comparison of hair, Significance. Types of fibers and methods of identification and comparison.",
+        "Introduction to wildlife forensics",
+        "Forensic Anthropology and DNA Analysis",
+        "Forensic Anthropology: Introduction to human skeleton, Skeletal anatomy",
+        "Difference between human and animal skeletons, Gender, Stature and ethnicity estimation from skull, pelvis and long bones."
+      ]
+    },
+
+    "Criminal Law-I": {
+      "units": [
+        "Introduction to Indian Legal System",
+        "Sources of Indian Law",
+        "Classification of Crimes",
+        "General Principles of Criminal Liability",
+        "Offenses against Human Body",
+        "Offenses against Property",
+        "Offenses against Public Tranquility",
+        "Offenses relating to Documents and Property Marks",
+        "Criminal Conspiracy, Abetment and Criminal Attempt",
+        "Jurisdiction of Criminal Courts",
+        "Investigation and Arrest Procedures",
+        "Bail and Bonds",
+        "Charge and Trial Procedures",
+        "Provisions relating to Juvenile Justice",
+        "Victimology and Victim Compensation",
+        "Concept of crime- History of crime, Essential elements of crime, Stages of Crime, Definitions of crime, Various Causes of crime commission",
+        "Bhartiya Nyaya Sanhita 2023- Historical development of Bharatiya Nyaya Sanhita 2023, Salient Features of Bharatiya Nyaya Sanhita 2023",
+        "Bharatiya Nyaya Sanhita vis a vis Indian Penal Code 1860",
+        "Types of Punishments under Bhartiya Nyay Sanhita 2023- a) Death (b) Imprisonment for life (c) Imprisonment, which is of two descriptions, namely: (1) Rigorous, that is, with hard labour; (2) Simple (d) Forfeiture of property (e) Fine (f) Community Service",
+        "Important Provisions under Bhartiya Nyaya Sanhita 2023",
+        "Definitions (Sec. 2), General Exceptions (Sec. 14- 44)",
+        "Offences against Women and Child- Sexual Offences (Sec. 63-79), Offences against Child (Sec. 93-99)",
+        "Offences Against Body- Offences affecting life (Sec. 100-110), Organized crime (Sec. 111-113),Hurt (Sec.115-125),Criminal Force and Assault (Sec. 128-136) Kidnapping, Abduction, slavery and Forced labour (Sec. 137-146)",
+        "Offences against State and Society",
+        "Offences against State (Sec. 147-158)",
+        "Offence Relating to False evidence and against public justice (Sec. 227-269)",
+        "Offences affecting the public health, safety, convenience, decency and morals (Sec. 270-297)",
+        "Offences against Property",
+        "Theft (Sec. 202-208)",
+        "Robbery and Dacoity (Sec. 309-313)",
+        "Criminal Misappropriation of property (Sec. 314-315)",
+        "Criminal Breach of Trust (Sec. 316)",
+        "Receiving of Stolen Property (Sec. 317), Cheating (Sec. 318-319)",
+        "Offences relating to documents and to property marks (Sec. 335-350)"
+      ]
+    },
+
+    "Lab Course – I": {
+      "units": [
+        "Blood grouping",
+        "Estimation of age from dental records."
+      ]
+    },
+
+    "Introduction to Forensic Physics & Forensic Psychology": {
+      "units": [
+        "Introduction to Ballistics",
+        "Ballistics: Classification of firearms and their mechanism",
+        "Internal, external and terminal ballistics",
+        "Collection of firearms and related evidences",
+        "Examination of firearms and related evidences",
+        "Tool marks",
+        "Tread and Footwear impressions",
+        "Collection of pattern and impression evidence",
+        "Examination and comparison of pattern and impression evidence",
+        "Forensic Psychology – Definition, History, Importance & Scope",
+        "Ethics for a Forensic Psychologist",
+        "Psychological and Forensic testing, Assessment and Evaluation",
+        "Criminal Behavior – Social, Psychological, Biological factors",
+        "Detection of Deception",
+        "Training to detect deception",
+        "Polygraph",
+        "Narcoanalysis",
+        "Psychological Autopsy",
+        "BEOS – Brain Electrical Oscillation Signature Profiling",
+        "Forensic Hypnosis",
+        "Case study discussion"
+      ]
+    },
+
+    "Special Law-I": {
+      "units": [
+        "Meaning and Definition of Environment, Environmental Pollution, Its kinds (Natural and Artificial – Air, Water, Noise, Soil), causes and effects.",
+        "Environment Protection under the Constitution of India",
+        "The Environmental Protection Act, 1986 (Definitions, Measures taken for protection and conservation of natural resources, Authorities, offences and penalties and important judicial decisions)",
+        "The Wildlife Protection Act, 1972 (Important Definitions, Authoritie under the Act, Wildlife Advisory Board, Hunting, Protection of Specified plants, Sanctuaries and National Parks, Central Zoo Authority and Recognition of Zoos, Trade or commerce in Wild Animals, animal articles and trophies, Forfeiture of Property Derived from Illegal Hunting and Trade, Offences and Penalties, important judicial decisions",
+        "Mental Healthcare Act 2017 (Preliminary, Definitions, Central Mental Health Authority, State Mental Health Authority, Rights of Persons with Mental Illness, Mental Health Establishments, Mental Health Review Boards, Admission, Treatment and Discharge, Responsibilities of Other Agencies, Offences and Penalties)",
+        "Medical Termination of Pregnancy Act 1971- Object behind enactment, Definitions, when pregnancies may be terminated by registered medical practitioners, Place where pregnancy may be terminated, Protection of privacy of a woman.",
+        "Pre Conception and Prenatal Diagnostic Technique Act, 1994- Object behind enactment, Definitions, Regulation of genetic counselling centres, genetic laboratories and genetic clinics, Regulation of pre-natal diagnostic techniques, Central Supervisory Board, Registration of Genetic Counselling Centres, Genetic Laboratories and Genetic Clinics, Offences and Penalties",
+        "The Food Safety and Standards Act, 2006 (Preliminary, Food safety and Standard Authority of India, General principles of Food safety, General provisions as to articles of food, Analysis of Food, Enforcement provisions, Offences and Penalties)",
+        "The Drugs and Cosmetics Act, 1940 (Preliminary, Definitions, Authorities, Import of Drugs and Cosmetics, Provisions as to manufacture, sale and purchase of drugs, miscellaneous provisions)",
+        "The Standards of Weights and Measures Act 1976 (Preliminary,Definition, Establishment of standards of weights and measures, Physical representation of standard units, Standards of Weights and Measures, Offences and their trial)",
+        "The Motor Vehicles (Amendment) Act, 2019 (Preliminary, Licensing of drivers of motor vehicles, Registration of motor vehicles, Control of traffic, Insurance of motor vehicles against third party risks, Offences, penalties and procedure)"
+      ]
+    },
+
+    "Research Methodology": {
+      "units": [
+        "Introduction to Research Methodology",
+        "Types of Research",
+        "Research Process",
+        "Literature Review and Referencing",
+        "Formulation of Research Problem and Hypothesis",
+        "Research Design",
+        "Data Collection Methods",
+        "Sampling Techniques",
+        "Data Analysis and Interpretation",
+        "Use of Statistical Tools in Research",
+        "Ethical Considerations in Research",
+        "Report Writing and Presentation",
+        "Types of data and collection methods",
+        "Literature review process",
+        "Research Design: Definition, need and types of research design",
+        "Formulation of research problem and hypothesis",
+        "Types of Hypotheses",
+        "Types of data and collection methods"
+      ]
+    },
+
+    "Fingerprints & Questioned Documents": {
+      "units": [
+        "History and development of fingerprint examination",
+        "Anatomy and morphology of friction ridges",
+        "Types of fingerprints (latent, patent and plastic)",
+        "Fingerprint Classification Systems",
+        "Comparison of fingerprints",
+        "Physical methods for fingerprint development",
+        "Chemical methods for fingerprint development",
+        "Collection of fingerprints at crime scene",
+        "Digital fingerprint analysis technique – AFIS",
+        "Scope and need of Questioned Document Examination",
+        "Classification of documents",
+        "Types of document forgeries",
+        "Currency notes and security document examination",
+        "Handling, care and preservation of documents",
+        "Principles of handwriting examination",
+        "Collection and comparison of handwriting exemplars",
+        "Signature analysis",
+        "Examination of charred, indented and secret writing documents",
+        "Processing and Interpretation of Data",
+        "Various statistical tools used for data analysis",
+        "Tabulation and Graphical representation of data",
+        "Interpretation of data",
+        "Types of scientific reports",
+        "Various search tools and Reference management software’s used in scientific research"
+      ]
+    },
+
+    "Introduction to Forensic Chemistry": {
+      "units": [
+        "Introduction and scope of Forensic Chemistry",
+        "Drugs of abuse: Introduction and classification",
+        "Alcoholic beverages: Collection, preservation and analysis",
+        "Petroleum products: Collection, preservation and analysis",
+        "Arson and explosive residues",
+        "Ink, glass, paint and soil: Introduction and significance",
+        "Classification and examination of ink",
+        "Classification and examination of glass",
+        "Classification and examination of paint",
+        "Classification and examination of soil",
+        "Classification, evaluation and interpretation of injuries",
+        "Post-mortem changes and their significance",
+        "Autopsy: Definition and classification",
+        "Collection and preservation of viscera",
+        "Introduction to Forensic Toxicology",
+        "Classification of poisons",
+        "Routes of administration and modes of action",
+        "Factors influencing toxicity",
+        "Interpretation of toxicological findings"
+      ]
+    },
+
+    "Criminal Law-II": {
+      "units": [
+        "The Indian Evidence Act, 1872- Introduction, Definitions, Relevancy of Facts, Admissions and Confessions, Statements by persons who cannot be called as witnesses, Expert Opinion, Documentary Evidence, Burden of Proof, Estoppel, Witnesses",
+        "The Code of Criminal Procedure, 1973- Introduction, Definitions, Powers of Police, Investigation, Arrest, Bail, Charge and Trial Procedures, Judgment and Sentences, Appeals, Revision and Reference, Maintenance of Public Order and Tranquility, Juvenile Justice",
+        "The Prevention of Corruption Act, 1988- Introduction, Definitions, Offences and Penalties, Authorities under the Act",
+        "The Narcotic Drugs and Psychotropic Substances Act, 1985- Introduction, Definitions, Authorities under the Act, Offences and Penalties",
+        "The Arms Act, 1959- Introduction, Definitions, Licensing and Registration of Arms and Ammunition, Offences and Penalties",
+        "The Scheduled Castes and Scheduled Tribes (Prevention of Atrocities) Act, 1989- Introduction, Definitions, Offences and Penalties, Authorities under the Act",
+        "Introduction to Bharatiya Nagarik Suraksha Sanhita 2023",
+        "Introduction- Historical Background, Objectives behind enactment Salient Features of Bharatiya Nagarik Suraksha Sanhita, 2023 Bharatiya Nagarik Suraksha Sanhita 2023 vis a vis Code of Criminal Procedure 1973",
+        "Criminal Courts in India- Constitution of criminal courts (Sec. 6-17) Public prosecutors & Directorate of Prosecution (Sec. 18-20) Powers of Criminal Courts (Sec. 21-29)",
+        "Investigation and Trial of Criminal Cases",
+        "Procedure of Investigation- Arrest of persons- (Sec. 35-62) Processes to compel appearance- Summons (Sec. 63-71), Warrant Sec. 72-83), Processes to compel the production of things (Sec. 94-124) Information to the police and their powers to investigate Sec. 173-196)",
+        "Procedure of Trial- Framing of Charge (Sec. 234-237) Trial before a court of session (Sec. 248-260), Trial of warrant-cases by magistrate (Sec. 261-273), Trial of summons-cases by magistrates Sec. 274- 282), Summary Trial (Sec. 283-288) Evidence in inquiries and trials (Sec. 307-337) Provisions as to accused persons with mental illness (Sec. 367-378) Provisions as to bail and bonds (Sec. 479-498)",
+        "Introduction to Bharatiya Sakshya Adhiniyam, 2023",
+        "Introduction- Historical Background, Objectives behind enactment Salient Features of Bharatiya Sakshya Adhiniyam, 2023 Bharatiya Sakshya Adhiniyam, 2023 vis a vis Indian Evidence Act 1872",
+        "Dying Declaration- Statements by persons who cannot be called as witnesses (Sec. 26)",
+        "Opinion of Expert- Opinions of third persons when relevant (Sec.39-45)",
+        "Types of Evidences & Examination of witnesses",
+        "Types of Evidence- Oral evidence (Sec. 54-55) Documentary Evidence (Sec. 56-73) Burden of proof (Sec. 104-120)",
+        "Examination of witnesses- Witnesses (Sec. 124-139) Examination of Witnesses (Sec. 140-168)"
+      ]
+    },
+
+    "Digital Forensics": {
+      "units": [
+        "Understanding cybercrime and its classifications",
+        "Digital forensics process and methodologies",
+        "Digital evidence handling and preservation",
+        "Disk imaging and cloning",
+        "Data recovery and reconstruction",
+        "Network intrusion investigation",
+        "Mobile device forensics",
+        "Web browser and email investigations",
+        "Social media investigations",
+        "Principles of forensic photography",
+        "Photography on challenging surfaces",
+        "Advanced forensic photography techniques",
+        "Introduction to image forensics",
+        "Challenges in image forensics",
+        "Introduction to video forensics",
+        "Anatomy of vocal tract",
+        "Forensic speaker identification",
+        "Methods of speaker identification",
+        "Challenges in forensic audio and video analysis",
+        "Cybercrime and Digital Forensics",
+        "Investigating network intrusions and cyber attacks",
+        "Mobile device forensics techniques and tools",
+        "Web browser and email investigations techniques",
+        "Social media investigations techniques and challenges",
+        "Forensic Photography and Image & Video Analysis",
+        "Principles, history and development of photography",
+        "Forensic Video and Speaker Identification"
+      ]
+    },
+
+    "Special Law-II": {
+      "units": [
+        "Water (Prevention and Control of Pollution) Act, 1974- Preliminary, The Central and State Boards for Prevention and Control Of Water Pollution, Powers And Functions of Boards, Prevention And Control Of Water Pollution, Penalties And Procedure, Central Water Laboratory, State Water Laboratory., Analysts, Reports of analyst",
+        "The Air (Prevention and Control of Pollution) Act, 1981- Preliminary, The Central and State Boards for Prevention and Control Of Air Pollution, Powers And Functions of Boards, Prevention And Control Of Air Pollution, Penalties And Procedure, Central Air Laboratory, State Air Laboratory., Analysts, Reports of analyst",
+        "The Hazardous Wastes (Management and Handling) Rules, 1989- Definitions, Categorization of Hazardous Wastes, Responsibilities of Generators, Responsibilities of Operators of Treatment, Storage and Disposal Facilities, Manifest System and Record Keeping, Import and Export of Hazardous Wastes, Offences and Penalties",
+        "The Public Liability Insurance Act, 1991- Definitions, Liability for damage to persons and property in case of accident while handling hazardous substances, Amount of compensation, Claims for compensation, Establishment of Environmental Relief Fund, Offences and Penalties",
+        "The Noise Pollution (Regulation and Control) Rules, 2000",
+        "The Arms Act 1959 (Preliminary, Definition of arms, Prohibited Arms, irearms, Types of firearms, Acquisition, Possession, Manufacture,Sale, Import, Export and Transport of Arms and Ammunition, Provisions Relating To Licenses, Powers And Procedure, Offences and penalties, Miscellaneous)",
+        "The Explosive Substances Act 1908 (Preliminary, Definitions, Licensing Procedure, Power to make rules conferring powers of inspection, search, seizure, detention and removal, Notice and inquiry of accidents, Punishment for certain offences) of Pregnancy Act 1971",
+        "The Narcotic Drugs and Psychotropic Substances Act, 1985 (Object,Definitions, Authorities and officers, Prohibition control and regulation under Act, Offences and Penalties, Special Courts and its Procedure)",
+        "The Prevention of Illicit Trafficking in NDPS Act,1988",
+        "Introduction to Cyber Crime, Types of Cyber Crimes",
+        "The Information Technology Act 2000 with recent Amendments",
+        "Preliminary, Definitions, Attribution, Acknowledgment and Dispatch of Electronic Records, Secure Electronic Records and Secure Digital Signatures, Electronic Governance, Regulation 0f Certifying Authorities, Digital Signature Certificates, Offences and Penalties.",
+        "Overview of Digital Personal Data Protection Act, 2023"
+      ]
+    }
+  },
+
+  "Postgraduate Diploma in Digital and Cyber Forensics and Related Laws": {
+    "Cyber Forensics-I": {
+      "units": [
+        "Introduction to Cyber Forensics",
+        "Definition and origin of the term “forensic”, Nature, need and scope of forensic science, Principles, and laws of forensic science.",
+        "Cyber Forensics: A Brief About Cyber Forensics, Digital Forensics Categories",
+        "Forensics Investigation Process: Incident, Identification, Seizure, Imaging, Hashing, Analysis, Reporting, Preservation",
+        "Forensic Protocol for Evidence Acquisition,",
+        "Digital Evidence: Write Blockers, Forensic Triage, Chain of Custody",
+        "Digital Forensics Standards, Guidelines and Best Practices- Handling theDigital Crime Scene - Digital Evidence Examination Guidelines –ACPO, SWGDE, DFRWS, ISO 27037",
+        "Cyber-crimes mechanisms: Types of Cyber-crimes, Notable Data Breaches",
+        "Challenges in Cyber Forensics",
+        "Skills Required to Become a Cyber Forensic Expert, Proficiency of a Cyber Forensic Expert",
+        "Cyber Forensic Tools",
+        "What is the Computer Security Incident?",
+        "What are the goals of Incident Response?",
+        "Who is involved in the Incident Response Process?",
+        "Incident Response Methodology",
+        "Formulate a Response Strategy",
+        "Investigate the Incident",
+        "Preparing for Incident Response",
+        "Overview of Pre-incident Preparation",
+        "Identifying Risk",
+        "After Detection of an Incident.",
+        "Volatile Data Collection: Live Response, Locard’s Exchange Principle, Order of Volatility, When to Perform Live Response, What Data to Collect.",
+        "Memory Dump, System Time, Logged on Users, Open Files, Network Information (Cached NetBIOS Name Table), Network Connections, Process Information, Process-to-Port Mapping, Process Memory, Network Status, Clipboard Contents, Service / Driver Information, Command History, Mapped Drives, Shares",
+        "Non-Volatile Data Collection: Disk Imaging (External Storage such as USB and Native Hard Disk), Registry Dump, Event Logs, Devices and Other Information, Files Extraction, Write-Blocking port",
+        "Registry Analysis",
+        "Browser Usage",
+        "Hibernation File Analysis",
+        "Crash Dump Analysis",
+        "File System Analysis",
+        "File Metadata and Timestamp Analysis",
+        "Event Viewer Log Analysis",
+        "Timeline Creation",
+        "Memory Forensics",
+        "System overview",
+        "x86/x64 architecture",
+        "Data structures",
+        "Volatility Framework & plug-in",
+        "Memory acquisition",
+        "Processes, Handles and Tokens",
+        "Windows registry",
+        "Networking; sockets, DNS and Internet history",
+        "Disk Artifacts in memory",
+        "Event Reconstruction",
+        "Timelining memory"
+      ]
+    }
+  },
+
+    "Cyber Security": {
+      "units": [
+        "Introduction to Security",
+        "Types of Attacks"
+      ]
+    }
+}
