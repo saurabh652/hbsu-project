@@ -1,93 +1,158 @@
 from pypdf import PdfReader
 import re
 import json
-import os
+from pathlib import Path
 
-PDF_PATH = os.path.join(os.path.dirname(__file__), "PFDFDC_Three-PGD.pdf")
-OUTPUT_JSON = "syllabus.json"
-OUTPUT_TXT = "syllabus_readable.txt"
+# ---------------- CONFIG ----------------
+BASE_DIR = Path(__file__).resolve().parent
+PDF_FILE = BASE_DIR / "PFDFDC_Three-PGD.pdf"
+JSON_OUT = BASE_DIR / "syllabus.json"
+TEXT_OUT = BASE_DIR / "syllabus_readable.txt"
 
-reader = PdfReader(PDF_PATH)
 
-# ---------------- EXTRACT TEXT ----------------
-text = ""
-for page in reader.pages:
-    page_text = page.extract_text()
-    if page_text:
-        text += page_text + "\n"
+# ---------------- UTILITIES ----------------
+def extract_pdf_content(file_path):
+    """Extract full text from PDF"""
+    reader = PdfReader(file_path)
+    collected_text = []
 
-# ---------------- CLEAN FUNCTION ----------------
-def clean_line(line):
-    line = re.sub(r"\s+", " ", line)  # remove extra spaces
-    line = re.sub(r"[•●▪]", "", line)  # remove bullets
+    for page in reader.pages:
+        content = page.extract_text()
+        if content:
+            collected_text.append(content)
+
+    return "\n".join(collected_text)
+
+
+def normalize_text(line):
+    """Clean and normalize a line"""
+    line = re.sub(r"[•●▪]", "", line)
+    line = re.sub(r"\s+", " ", line)
     return line.strip()
 
-# ---------------- MAIN LOGIC ----------------
-syllabus = {}
-program = None
-subject = None
-unit = None
 
-for line in text.split("\n"):
-    line = clean_line(line)
+def is_valid_topic(line):
+    """Filter unwanted lines"""
+    ignore_keywords = ("Teaching", "Credits", "Evaluation")
+    return len(line) > 5 and not line.startswith(ignore_keywords)
 
-    if not line:
-        continue
 
-    # -------- PROGRAM --------
-    if line.startswith("Postgraduate Diploma"):
-        program = line
-        syllabus[program] = {}
-        subject = None
-        unit = None
-        continue
+# ---------------- PARSER CLASS ----------------
+class SyllabusParser:
 
-    # -------- SUBJECT --------
-    if line.startswith("Course Title"):
-        if program is None:
-            continue
+    def __init__(self, raw_text):
+        self.raw_text = raw_text
+        self.data = {}
+        self.current_program = None
+        self.current_subject = None
+        self.current_unit = None
 
-        subject = line.replace("Course Title", "").replace(":", "").strip()
-        syllabus[program][subject] = {}
-        unit = None
-        continue
+    def parse(self):
+        for raw_line in self.raw_text.splitlines():
+            line = normalize_text(raw_line)
 
-    # -------- UNIT --------
-    match = re.match(r"(Unit\s+[IVX]+)\s*[–-]\s*(.*)", line)
-    if match and program and subject:
-        unit_name = f"{match.group(1)} – {match.group(2)}"
-        syllabus[program][subject][unit_name] = {
-            "topics": [],
-            "word_count": 0
-        }
-        unit = unit_name
-        continue
+            if not line:
+                continue
 
-    # -------- CONTENT --------
-    if program and subject and unit:
-        if len(line) > 5 and not line.startswith(("Teaching", "Credits", "Evaluation")):
-            
-            # Avoid duplicates
-            if line not in syllabus[program][subject][unit]["topics"]:
-                syllabus[program][subject][unit]["topics"].append(line)
-                
-                # Word count
-                syllabus[program][subject][unit]["word_count"] += len(line.split())
+            if self._detect_program(line):
+                continue
 
-# ---------------- SAVE JSON ----------------
-with open(OUTPUT_JSON, "w", encoding="utf-8") as f:
-    json.dump(syllabus, f, indent=2, ensure_ascii=False)
+            if self._detect_subject(line):
+                continue
 
-# ---------------- SAVE READABLE TEXT ----------------
-with open(OUTPUT_TXT, "w", encoding="utf-8") as f:
-    for prog, subjects in syllabus.items():
-        f.write(f"\n📘 {prog}\n\n")
-        for subj, units in subjects.items():
-            f.write(f"  📗 {subj}\n")
-            for unit, data in units.items():
-                f.write(f"    📙 {unit} (Words: {data['word_count']})\n")
-                for topic in data["topics"]:
-                    f.write(f"      - {topic}\n")
-                f.write("\n")
+            if self._detect_unit(line):
+                continue
 
-print("✅ syllabus.json + syllabus_readable.txt generated successfully yes succesfully")
+            self._add_topic(line)
+
+        return self.data
+
+    # ---------- DETECTORS ----------
+    def _detect_program(self, line):
+        if line.startswith("Postgraduate Diploma"):
+            self.current_program = line
+            self.data[self.current_program] = {}
+            self.current_subject = None
+            self.current_unit = None
+            return True
+        return False
+
+    def _detect_subject(self, line):
+        if line.startswith("Course Title") and self.current_program:
+            subject_name = line.replace("Course Title", "").replace(":", "").strip()
+            self.data[self.current_program][subject_name] = {}
+            self.current_subject = subject_name
+            self.current_unit = None
+            return True
+        return False
+
+    def _detect_unit(self, line):
+        pattern = r"(Unit\s+[IVX]+)\s*[–-]\s*(.*)"
+        match = re.match(pattern, line)
+
+        if match and self.current_program and self.current_subject:
+            unit_title = f"{match.group(1)} – {match.group(2)}"
+            self.data[self.current_program][self.current_subject][unit_title] = {
+                "topics": [],
+                "word_count": 0
+            }
+            self.current_unit = unit_title
+            return True
+
+        return False
+
+    # ---------- ADD CONTENT ----------
+    def _add_topic(self, line):
+        if not (self.current_program and self.current_subject and self.current_unit):
+            return
+
+        if not is_valid_topic(line):
+            return
+
+        unit_data = self.data[self.current_program][self.current_subject][self.current_unit]
+
+        if line not in unit_data["topics"]:
+            unit_data["topics"].append(line)
+            unit_data["word_count"] += len(line.split())
+
+
+# ---------------- OUTPUT HANDLERS ----------------
+def save_json(data, file_path):
+    with open(file_path, "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=2, ensure_ascii=False)
+
+
+def save_readable(data, file_path):
+    with open(file_path, "w", encoding="utf-8") as f:
+        for program, subjects in data.items():
+            f.write(f"\n📘 {program}\n\n")
+
+            for subject, units in subjects.items():
+                f.write(f"  📗 {subject}\n")
+
+                for unit, info in units.items():
+                    f.write(f"    📙 {unit} (Words: {info['word_count']})\n")
+
+                    for topic in info["topics"]:
+                        f.write(f"      - {topic}\n")
+
+                    f.write("\n")
+
+
+# ---------------- MAIN EXECUTION ----------------
+def run_pipeline():
+    raw_text = extract_pdf_content(PDF_FILE)
+
+    parser = SyllabusParser(raw_text)
+    structured_data = parser.parse()
+
+    save_json(structured_data, JSON_OUT)
+    save_readable(structured_data, TEXT_OUT)
+
+    print("✅ Files generated successfully:")
+    print(f"   → {JSON_OUT.name}")
+    print(f"   → {TEXT_OUT.name}")
+
+
+if __name__ == "__main__":
+    run_pipeline()
