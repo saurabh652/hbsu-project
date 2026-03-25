@@ -90,4 +90,4 @@ with open(OUTPUT_TXT, "w", encoding="utf-8") as f:
                     f.write(f"      - {topic}\n")
                 f.write("\n")
 
-print("✅ syllabus.json + syllabus_readable.txt generated successfully")
+print("✅ syllabus.json + syllabus_readable.txt generated successfully yes succesfully")
