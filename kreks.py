@@ -3,6 +3,8 @@
 # ================================
 
 # Import libraries
+import kreta
+import scikitlearn
 import os
 import faiss
 import pickle
